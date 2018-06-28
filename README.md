@@ -14,3 +14,15 @@ sudo depmod
 
 Tun and done!
 
+
+The above sources were taken from kernel version 4.12
+
+They appear to work fine on 4.17.2 as well
+
+And here is the faulty commit:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/drivers/net/ethernet/atheros/alx?id=bc2bebe8de8ed4ba6482c9cc370b0dd72ffe8cd2
+
+The above sources were obtained by manually modifying 4.12 alx driver with the above commit.
+
+Oh, and this is all GPL-3 licensed. See the "LICENSE" for more detail
