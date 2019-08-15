@@ -17,9 +17,9 @@ sudo depmod
 Tun and done!
 
 
-The above sources were taken from kernel version 4.12
+The above sources were taken from kernel version 4.12 and slightly modified for newer kernel
 
-They appear to work fine on 4.17.2 as well
+They appear to work fine on 5.0.0 as well
 
 And here is the faulty commit:
 
